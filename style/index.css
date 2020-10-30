@@ -1,1 +1,130 @@
 /* Add CSS styling here */
+
+html, span, applet, object, iframe,
+h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+    /* start here*/
+    background-color:lightslategrey;
+*{
+
+    box-sizing: border-box;
+    width:100%;
+}
+header {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    text-align: center;
+}
+h1{
+    padding:1%;
+    font-size:3em;
+}
+.links nav{
+    padding:1%;
+}
+ .links a{
+    padding:1% 2%;
+    font-size:1.3em;
+    color:black;
+    border: 5px inset black;
+    text-decoration: none;
+}
+.links a:hover{
+    background-color:grey;
+}
+.links a:active{
+    color:white;
+    background-color: black;
+}
+.mainTxt {
+    margin:0 24%;
+    width:52%;
+    display:flex;
+    justify-content: center;
+    line-height: 1.5;
+    font-size: 1.5em;
+}
+ .bigBackground{
+    display:flex;
+   background-image: url(https://images.pexels.com/photos/76971/fighter-jet-fighter-aircraft-f-16-falcon-aircraft-76971.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+   background-size:cover;
+   height:100vh;
+   background-repeat: no-repeat;
+   position:relative;
+   max-width:100%;
+ }
+.smallImgs {
+    display:flex;
+    justify-content: space-evenly;
+    width:90%;
+    height:90vh;
+    margin:4%;
+}
+
+.smallImg1{ 
+    background-image: url(https://images.pexels.com/photos/2263816/pexels-photo-2263816.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+    background-position: center;
+    background-size:cover;
+}
+.smallImg2{
+    background-image: url(https://images.pexels.com/photos/2618794/pexels-photo-2618794.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+    background-position: center;
+    background-size:cover;
+}
+.smallImg3{
+    background-image:url(https://images.pexels.com/photos/414928/pexels-photo-414928.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+    background-position: center;
+    background-size:cover;
+}
+.smallImg4{
+    background-image:url(https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+    background-position: center;
+    background-size:cover;
+}
+.button a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:1% 2%;
+    font-size:1.3em;
+    color:black;
+    border: 5px inset black;
+    text-decoration: none;
+}
