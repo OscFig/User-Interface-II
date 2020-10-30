@@ -10,18 +10,14 @@ dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+figure, figcaption, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+	
 }
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
+
 body {
 	line-height: 1;
 }
@@ -40,11 +36,13 @@ table {
 	border-spacing: 0;
 }
     /* start here*/
-    background-color:lightslategrey;
+   
 *{
-
     box-sizing: border-box;
     width:100%;
+}
+body{
+    background-color: lightslategrey;
 }
 header {
     display:flex;
@@ -67,12 +65,10 @@ h1{
     text-decoration: none;
 }
 .links a:hover{
-    background-color:grey;
-}
-.links a:active{
+    background-color:black;
     color:white;
-    background-color: black;
 }
+
 .mainTxt {
     margin:0 24%;
     width:52%;
@@ -118,13 +114,30 @@ h1{
     background-position: center;
     background-size:cover;
 }
-.button a{
+.describe p{
+    font-size: 1.9vw;
+    padding: 0.3% 10%;
+}
+.footUrl{
+    display:flex;
+    width:20%;  
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 38%;
+}
+.footUrl a{
+    width:auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding:1% 2%;
     font-size:1.3em;
-    color:black;
     border: 5px inset black;
+    color:black;
     text-decoration: none;
+}
+p{
+    font-family: 'Grandstander', cursive;
+}
+h1{
+    font-family: 'Fjalla One', sans-serif;
 }
