@@ -1,1 +1,153 @@
-/* Add CSS styling here */
+
+*{
+    box-sizing: border-box;
+   max-width:100%;
+}
+body{
+    background-color: lightslategrey;
+}
+
+header {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    text-align: center;
+}
+h1{
+    padding:1%;
+    font-size:3em;
+}
+.links nav{
+    padding:1%;
+}
+ .links a{
+    padding:1% 2%;
+    font-size:1.3em;
+    color:black;
+    border: 5px inset black;
+    text-decoration: none;
+}
+.links a:hover{
+    background-color:black;
+    color:white;
+}
+
+.mainTxt {
+    margin:0 24%;
+    width:52%;
+    display:flex;
+    justify-content: center;
+    line-height: 1.5;
+    font-size: 1.5em;
+}
+ .bigBackground{
+    display:flex;
+   background-image: url(https://images.pexels.com/photos/76971/fighter-jet-fighter-aircraft-f-16-falcon-aircraft-76971.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+   background-size:cover;
+   height:100vh;
+   background-repeat: no-repeat;
+   background-position: center;
+   max-width:100%;
+ }
+.smallImgs {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width:100%;
+    height:90vh;
+    margin:2%;
+}
+.smallImgs div{
+    margin:1% 0;
+}
+
+
+.smallImg1{ 
+    background-image: url(https://images.pexels.com/photos/2263816/pexels-photo-2263816.jpeg);
+    background-position: center;
+    background-size:cover;
+}
+.smallImg2{
+    background-image: url(https://images.pexels.com/photos/2618794/pexels-photo-2618794.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+    background-position: center;
+    background-size:cover;
+}
+.smallImg3{
+    background-image:url(https://images.pexels.com/photos/414928/pexels-photo-414928.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+    background-position: center;
+    background-size:cover;
+}
+.smallImg4{
+    background-image:url(https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+    background-position: center;
+    background-size:cover;
+}
+.describe {
+    height: 10%;
+    font-size: 3.5vh;
+}
+.footUrl button{
+    width:15%;  
+    height:43px;
+    margin-left: 38%;
+    border: 5px inset black;
+}
+.footUrl a{
+    font-size:1.3em;
+    color:black;
+    text-decoration: none;
+}
+p{
+    font-family: 'Grandstander', cursive;
+}
+h1{
+    font-family: 'Fjalla One', sans-serif;
+}
+
+@media(max-width:800px){
+    .links{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    .links nav{
+        padding:1%;
+        margin:1%;
+        display:flex;
+        flex-direction:column;
+        width:20%;
+    }
+    .smallImgs {
+        display:flex;
+        flex-wrap:wrap;
+        justify-content: space-evenly;
+        width:100%;
+        height:180vh;
+       
+    }
+    .smallImgs div{
+        flex-basis:45%;
+        height:60vh;
+    }
+    
+    .footUrl button{
+        width:16%;  
+        height:40px;
+        margin-left: 38%;
+        border: 5px inset black;
+    }
+    .footUrl a{
+        font-size:1.3em;
+        color:black;
+        text-decoration: none;
+    }
+    .describe {
+        max-height: 50%;
+        font-size: 3.5vh;
+    }
+
+
+@media(max-width:500px){
+
+}
